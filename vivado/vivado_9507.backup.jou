@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 10 08:18:40 2017
+# Process ID: 9507
+# Current directory: /home/INTRA/chakal/workspace/project/vivado
+# Command line: vivado
+# Log file: /home/INTRA/chakal/workspace/project/vivado/vivado.log
+# Journal file: /home/INTRA/chakal/workspace/project/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd}
+startgroup
+create_bd_cell -type ip -vlnv tamu.edu:user:ZedboardOLED:1.0 ZedboardOLED_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins ZedboardOLED_0/S00_AXI]
+startgroup
+create_bd_port -dir O DC
+connect_bd_net [get_bd_pins /ZedboardOLED_0/DC] [get_bd_ports DC]
+endgroup
+startgroup
+create_bd_port -dir O RES
+connect_bd_net [get_bd_pins /ZedboardOLED_0/RES] [get_bd_ports RES]
+endgroup
+startgroup
+create_bd_port -dir O SCLK
+connect_bd_net [get_bd_pins /ZedboardOLED_0/SCLK] [get_bd_ports SCLK]
+endgroup
+startgroup
+create_bd_port -dir O SDIN
+connect_bd_net [get_bd_pins /ZedboardOLED_0/SDIN] [get_bd_ports SDIN]
+endgroup
+startgroup
+create_bd_port -dir O VBAT
+connect_bd_net [get_bd_pins /ZedboardOLED_0/VBAT] [get_bd_ports VBAT]
+endgroup
+startgroup
+create_bd_port -dir O VDD
+connect_bd_net [get_bd_pins /ZedboardOLED_0/VDD] [get_bd_ports VDD]
+endgroup
+regenerate_bd_layout
+validate_bd_design

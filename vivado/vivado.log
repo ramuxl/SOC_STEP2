@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu May 11 09:24:28 2017
+# Process ID: 23456
+# Current directory: /home/INTRA/chakal/workspace/project/vivado
+# Command line: vivado
+# Log file: /home/INTRA/chakal/workspace/project/vivado/vivado.log
+# Journal file: /home/INTRA/chakal/workspace/project/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/SoC_Design/HDL/Audio_Mixer'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/SoC_Design/IPs/OLED/ZedBoard_OLED_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/zedboard_audio'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ip_repo_vivado/FILTER_IIR_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ip_repo_vivado/Volume_Pregain_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/MY_AXI_AUDIO_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_16/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 5907.039 ; gain = 138.953 ; free physical = 2271 ; free virtual = 7283
+update_compile_order -fileset sources_1
+open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding cell -- Cyril_IP:user:zed_audio:1.0 - zed_audio_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:user:MY_AXI_AUDIO:1.0 - MY_AXI_AUDIO_0
+Adding cell -- tsotnep:userLibrary:Volume_Pregain:1.0 - Volume_Pregain_0
+Adding cell -- tsotnep:userLibrary:FILTER_IIR:1.0 - FILTER_IIR_0
+Adding cell -- tsotnep:userLibrary:FILTER_IIR:1.0 - FILTER_IIR_1
+Adding cell -- tsotnep:userLibrary:Volume_Pregain:1.0 - Volume_Pregain_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:user:mixer:1.0 - mixer_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding cell -- tamu.edu:user:ZedboardOLED:1.0 - ZedboardOLED_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <project> from BD file </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>
+file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf
+
+launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

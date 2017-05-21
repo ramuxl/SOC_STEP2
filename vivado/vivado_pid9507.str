@@ -1,0 +1,321 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+Process ID: 9507
+
+Current time: 	5/10/17 8:19:04 AM EEST
+Time zone: 	Eastern European Time (Europe/Tallinn)
+
+OS: SUSE Linux Enterprise Desktop 11 (x86_64)
+Version: 3.0.101-84-default
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: localhost:10.0
+Screen size: 3286x1080
+Screen resolution (DPI): 74
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/cad/x_16/Vivado/2016.1/tps/lnx64/jre
+
+User name: 	INTRA\chakal
+User home directory: /home/INTRA/chakal
+User working directory: /home/INTRA/chakal/workspace/project/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /cad/x_16/Vivado
+RDI Data directory: /cad/x_16/Vivado/2016.1/data
+RDI Bin directory: /cad/x_16/Vivado/2016.1/bin
+
+Vivado preferences path: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	161 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,865 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Message: Warning: Cannot convert string "nil2" to type FontStruct xterm:  unable to open font "-misc-fixed-medium-r-semicondensed-*-13-120-75-75-c-60-iso10646-1", trying "fixed".... 
+// [GUI Memory]: 37 MB (+36291kb) [00:00:06]
+// [Engine Memory]: 4,865 MB (+4949326kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,870 MB. GUI used memory: 29 MB. Current time: 5/10/17 8:19:06 AM EEST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/INTRA/chakal/workspace/project/vivado/project.xpr");
+// Opening Vivado Project: /home/INTRA/chakal/workspace/project/vivado/project.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 42 MB (+3433kb) [00:00:19]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+2761kb) [00:00:22]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,026 MB. GUI used memory: 38 MB. Current time: 5/10/17 8:19:21 AM EEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project; location: /home/INTRA/chakal/workspace/project/vivado; part: xc7z020clg484-1
+// 'i' command handler elapsed time: 13 seconds
+// [GUI Memory]: 52 MB (+2595kb) [00:00:26]
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 5887.121 ; gain = 142.055 ; free physical = 871 ; free virtual = 6091 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// [GUI Memory]: 57 MB (+2698kb) [00:00:27]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 65 MB (+5187kb) [00:00:28]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bL:g (cv:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 69 MB (+635kb) [00:00:34]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// 'br' command handler elapsed time: 4 seconds
+dismissDialog("Open Block Design"); // bL:g (cv:JFrame)
+// [GUI Memory]: 78 MB (+6091kb) [00:00:42]
+// [GUI Memory]: 82 MB (+15kb) [00:00:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,098 MB. GUI used memory: 43 MB. Current time: 5/10/17 8:19:51 AM EEST
+// Elapsed time: 30 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 18 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, zed_audio.xdc]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, zed_audio.xdc]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("zed_audio.xdc", 150, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// Elapsed time: 34 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Signals", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Board", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 87 MB (+833kb) [00:02:32]
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "ole"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "oled"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZedboardOLED_v1.0", 0, "ZedboardOLED_v1.0", 0, false); // O:as (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZedboardOLED_v1.0", 0); // O:as (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZedboardOLED_v1.0", 0, "ZedboardOLED_v1.0", 0, false, false, false, false, false, true); // O:as (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// bL:g (cv:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv tamu.edu:user:ZedboardOLED:1.0 ZedboardOLED_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Add IP"); // bL:g (cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cv:JFrame)
+// s:x (cv:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:x)
+dismissDialog("Run Connection Automation"); // s:x (cv:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bL:g (cv:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins ZedboardOLED_0/S00_AXI] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </ZedboardOLED_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C50000 [ 64K ]> 
+dismissDialog("Run Connection Automation"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, S00_AXI]", 20, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, S00_AXI]", 20, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, DC]", 21, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, DC]", 21, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O DC 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/DC] [get_bd_ports DC] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, RES]", 22, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, RES]", 22, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O RES 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/RES] [get_bd_ports RES] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+// [Engine Memory]: 5,110 MB (+1834kb) [00:03:35]
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, SCLK]", 25, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, SCLK]", 25, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O SCLK 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/SCLK] [get_bd_ports SCLK] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, SDIN]", 26, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, SDIN]", 26, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O SDIN 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/SDIN] [get_bd_ports SDIN] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, VBAT]", 27, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, VBAT]", 27, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O VBAT 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/VBAT] [get_bd_ports VBAT] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, VDD]", 28, false); // k:JTree (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, ZedboardOLED_0, VDD]", 28, false, false, false, false, true, false); // k:JTree (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// aI:x (cv:JFrame): Create Port: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aI:x)
+dismissDialog("Create Port"); // aI:x (cv:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O VDD 
+// bL:g (cv:JFrame):  Create Port : addNotify
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /ZedboardOLED_0/VDD] [get_bd_ports VDD] 
+// Tcl Message: endgroup 
+dismissDialog("Create Port"); // bL:g (cv:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 263, 110, 1283, 617, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "Regenerate Layout"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 10 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 153, 89, 1283, 617, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bL:g (cv:JFrame):  Validate Design : addNotify
+// Tcl Message: validate_bd_design 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,127 MB. GUI used memory: 47 MB. Current time: 5/10/17 8:23:41 AM EEST
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 6001.473 ; gain = 16.582 ; free physical = 743 ; free virtual = 5963 
+dismissDialog("Validate Design"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 48 MB. Current time: 5/10/17 8:53:41 AM EEST
+// [GUI Memory]: 91 MB (+451kb) [00:37:07]
+// [GUI Memory]: 96 MB (+392kb) [00:44:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 9:23:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 45 MB. Current time: 5/10/17 9:53:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 45 MB. Current time: 5/10/17 10:23:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 10:53:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 43 MB. Current time: 5/10/17 11:23:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 11:53:41 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 12:23:41 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 43 MB. Current time: 5/10/17 12:53:41 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 46 MB. Current time: 5/10/17 1:23:42 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 1:53:42 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 45 MB. Current time: 5/10/17 2:23:42 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 44 MB. Current time: 5/10/17 2:53:42 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,161 MB. GUI used memory: 45 MB. Current time: 5/10/17 3:23:42 PM EEST

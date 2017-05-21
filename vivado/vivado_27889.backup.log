@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 10 19:11:41 2017
+# Process ID: 27889
+# Current directory: /home/INTRA/chakal/workspace/project/vivado
+# Command line: vivado
+# Log file: /home/INTRA/chakal/workspace/project/vivado/vivado.log
+# Journal file: /home/INTRA/chakal/workspace/project/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+PuTTY X11 proxy: unable to connect to forwarded X server: Network error: Connection refused
+xterm Xt error: Can't open display: localhost:10.0
+ERROR: [Common 17-1374] Display test failed. Please check DISPLAY environment variable and X server permissions for remote display.

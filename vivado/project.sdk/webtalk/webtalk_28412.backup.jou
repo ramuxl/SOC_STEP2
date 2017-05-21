@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# 
+# Start of session at: Thu May  4 08:04:00 2017
+# Process ID: 28412
+# Current directory: /home/INTRA/chakal/workspace/project/vivado/project.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/INTRA/chakal/workspace/project/vivado/project.sdk/webtalk/webtalk.log
+# Journal file: /home/INTRA/chakal/workspace/project/vivado/project.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

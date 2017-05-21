@@ -1,0 +1,214 @@
+09:42:28 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+09:42:33 INFO  : XSDB server has started successfully.
+09:42:34 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+12:35:50 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+12:35:52 INFO  : XSDB server has started successfully.
+12:35:52 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+12:35:52 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+12:44:36 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/INTRA/chakal/workspace/project/sd-image/BOOT.bin
+12:44:36 INFO  : Creating new bif file /home/INTRA/chakal/workspace/project/sd-temp/output.bif
+12:44:37 INFO  : Bootgen command execution is done.
+13:06:31 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+13:06:32 INFO  : XSDB server has started successfully.
+13:06:34 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+13:06:34 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+13:06:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1493719240000,  Project:1493534231000
+13:06:37 INFO  : The hardware specification for project 'project_wrapper_hw_platform_0' is different from /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+13:06:37 INFO  : Copied contents of /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf into /project_wrapper_hw_platform_0/system.hdf.
+13:06:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:06:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\taturr.C3j9ds"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\taturr.rJI5w2"
+
+13:06:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10234"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-lUmFbEKMn8Pe"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\taturr"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\lakond.rIDYP9"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10237"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-Q0L3bvgy9L3t"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\lakond"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\romeie.LI27FQ"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10246"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-YjnjPeigXFe6"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\romeie"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\kakuus.WY7SfY"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10232"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-jlzI5hn1IFpL"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\kakuus"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-112"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-EQmCyMfBzJj1"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-gdm"
+
+13:06:45 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+13:06:45 ERROR : Error updating BSP project MSS files.
+13:06:46 INFO  : Updating hardware inferred compiler options for FSBL.
+13:06:46 INFO  : Clearing existing target manager status.
+13:07:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+13:07:06 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+13:07:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+13:07:06 INFO  : Unable to read in MSS file /home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss : null
+13:07:06 ERROR : Failed to closesw "/home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss"
+Reason: Cannot close sw design '/home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+13:07:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:08:06 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+13:08:07 INFO  : XSDB server has started successfully.
+13:08:12 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+13:08:13 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+13:14:09 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/INTRA/chakal/workspace/project/sd-image/BOOT.bin
+13:14:09 INFO  : Creating new bif file /home/INTRA/chakal/workspace/project/sd-temp/output.bif
+13:14:09 INFO  : Bootgen command execution is done.
+07:14:53 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+07:14:54 INFO  : XSDB server has started successfully.
+07:15:03 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+07:15:04 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+07:15:04 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1493851417000,  Project:1493719240000
+07:15:04 INFO  : The hardware specification for project 'project_wrapper_hw_platform_0' is different from /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+07:15:05 INFO  : Copied contents of /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf into /project_wrapper_hw_platform_0/system.hdf.
+07:15:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:15:12 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\trkall.utsg0X"
+
+07:15:12 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10241"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-7SUDd5c7no3G"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\trkall"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-112"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-OcWU5mjFZlry"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-gdm"
+
+07:15:12 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+07:15:12 ERROR : Error updating BSP project MSS files.
+07:15:13 INFO  : Updating hardware inferred compiler options for FSBL.
+07:15:13 INFO  : Clearing existing target manager status.
+07:15:17 INFO  : Closing and re-opening the MSS file of ther project FSBL_bsp
+07:15:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:19 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+07:15:19 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:19 INFO  : Unable to read in MSS file /home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss : null
+07:15:19 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:19 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:27 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+07:15:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:28 INFO  : Unable to read in MSS file /home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss : null
+07:15:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:15:28 ERROR : Failed to closesw "/home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss"
+Reason: Cannot close sw design '/home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+07:15:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+07:15:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+07:16:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:16:20 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+07:16:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:16:21 INFO  : Unable to read in MSS file /home/INTRA/chakal/workspace/project/vivado/project.sdk/FSBL_bsp/system.mss : null
+07:16:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:16:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+07:16:21 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+07:17:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:17:40 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+07:17:41 INFO  : XSDB server has started successfully.
+07:17:42 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+07:17:42 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+08:25:25 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+08:25:26 INFO  : XSDB server has started successfully.
+08:25:27 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+08:25:27 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+08:43:09 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+08:43:10 INFO  : XSDB server has started successfully.
+08:43:11 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+08:43:11 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+08:50:18 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/INTRA/chakal/workspace/project/sd-image/BOOT.bin -w on
+08:50:18 INFO  : Creating new bif file /home/INTRA/chakal/workspace/project/sd-temp/output.bif
+08:50:19 INFO  : Bootgen command execution is done.
+03:34:14 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+03:34:15 INFO  : XSDB server has started successfully.
+03:34:16 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+03:34:17 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+03:34:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1494456310000,  Project:1493851417000
+03:34:20 INFO  : The hardware specification for project 'project_wrapper_hw_platform_0' is different from /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+03:34:20 INFO  : Copied contents of /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf into /project_wrapper_hw_platform_0/system.hdf.
+03:34:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:34:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\trkall.vGDAce"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\sejego.5hDQGE"
+
+03:34:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10251"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-bitmpvsMh2c2"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\sejego"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\trkall.zqypTI"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\anni.larin.KuW9oz"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10250"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-edpEaA3phdSY"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\anni.larin"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\dmitri.pismennoi"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\rlaane.cW1G0S"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10202"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-nJgvMSBBtfAX"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\rlaane"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-INTRA\trkall.utsg0X"
+
+03:34:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-10241"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-7SUDd5c7no3G"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-INTRA\trkall"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-112"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-OcWU5mjFZlry"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-gdm"
+
+03:34:27 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+03:34:27 ERROR : Error updating BSP project MSS files.
+03:34:28 INFO  : Updating hardware inferred compiler options for AUDIO_PACKAGE.
+03:34:29 INFO  : Updating hardware inferred compiler options for FSBL.
+03:34:29 INFO  : Clearing existing target manager status.
+03:34:37 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+03:34:37 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+03:34:37 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+03:34:37 INFO  : Unable to read in MSS file /home/INTRA/chakal/workspace/project/vivado/project.sdk/AUDIO_PACKAGE_bsp/system.mss : null
+03:34:38 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+03:34:38 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+03:34:38 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+03:35:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:36:06 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+03:36:07 INFO  : XSDB server has started successfully.
+03:36:08 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+03:36:08 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+03:36:14 ERROR : (XSDB Server)/cad/x_16/SDK/2016.1/bin/loader: line 164:  9845 Segmentation fault      "$RDI_PROG" "$@"
+
+03:36:14 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+03:36:15 INFO  : XSDB server has started successfully.
+09:25:40 INFO  : Launching XSDB server: xsdb -n -interactive /home/INTRA/chakal/workspace/project/vivado/project.sdk/temp_xsdb_launch_script.tcl
+09:25:41 INFO  : XSDB server has started successfully.
+09:25:41 INFO  : Processing command line option -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf.
+09:25:41 INFO  : Checking for hwspec changes in the project project_wrapper_hw_platform_0.
+09:40:08 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/INTRA/chakal/workspace/project/sd-image/BOOT.bin -w on
+09:40:08 INFO  : Overwriting existing bif file /home/INTRA/chakal/workspace/project/sd-temp/output.bif
+09:40:08 INFO  : Bootgen command execution is done.
